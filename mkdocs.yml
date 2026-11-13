@@ -1,0 +1,20 @@
+site_name: Έρευνα Υβριδικής Τάξης
+site_url: hybrid-learning-research.github.io
+
+theme:
+  name: material
+  language: el
+  features:
+    - navigation.tabs
+
+nav:
+  - Αρχική: index.md
+  - Πληροφορίες: participants.md
+  - Συναίνεση: consent.md
+  - Ραντεβού: booking.md
+
+# Χωρίς αναζήτηση
+plugins: []
+
+markdown_extensions:
+  - attr_list
