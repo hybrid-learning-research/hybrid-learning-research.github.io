@@ -6,6 +6,17 @@ theme:
   language: el
   features:
     - navigation.tabs
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Σκούρο θέμα
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Φωτεινό θέμα
 
 nav:
   - Αρχική: index.md
